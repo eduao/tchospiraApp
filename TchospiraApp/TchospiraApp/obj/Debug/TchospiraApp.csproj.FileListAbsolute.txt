@@ -1,0 +1,16 @@
+c:\users\eduo\documents\visual studio 2017\Projects\TchospiraApp\TchospiraApp\TchospiraApp\obj\Debug\TchospiraApp.csprojResolveAssemblyReference.cache
+c:\users\eduo\documents\visual studio 2017\Projects\TchospiraApp\TchospiraApp\TchospiraApp\obj\Debug\TchospiraApp.Views.MainPage.xaml.g.cs
+c:\users\eduo\documents\visual studio 2017\Projects\TchospiraApp\TchospiraApp\TchospiraApp\obj\Debug\TchospiraApp.App.xaml.g.cs
+c:\users\eduo\documents\visual studio 2017\Projects\TchospiraApp\TchospiraApp\TchospiraApp\bin\Debug\TchospiraApp.dll
+c:\users\eduo\documents\visual studio 2017\Projects\TchospiraApp\TchospiraApp\TchospiraApp\bin\Debug\TchospiraApp.pdb
+c:\users\eduo\documents\visual studio 2017\Projects\TchospiraApp\TchospiraApp\TchospiraApp\bin\Debug\Xamarin.Forms.Core.dll
+c:\users\eduo\documents\visual studio 2017\Projects\TchospiraApp\TchospiraApp\TchospiraApp\bin\Debug\Xamarin.Forms.Platform.dll
+c:\users\eduo\documents\visual studio 2017\Projects\TchospiraApp\TchospiraApp\TchospiraApp\bin\Debug\Xamarin.Forms.Xaml.dll
+c:\users\eduo\documents\visual studio 2017\Projects\TchospiraApp\TchospiraApp\TchospiraApp\bin\Debug\Xamarin.Forms.Core.pdb
+c:\users\eduo\documents\visual studio 2017\Projects\TchospiraApp\TchospiraApp\TchospiraApp\bin\Debug\Xamarin.Forms.Core.xml
+c:\users\eduo\documents\visual studio 2017\Projects\TchospiraApp\TchospiraApp\TchospiraApp\bin\Debug\Xamarin.Forms.Platform.pdb
+c:\users\eduo\documents\visual studio 2017\Projects\TchospiraApp\TchospiraApp\TchospiraApp\bin\Debug\Xamarin.Forms.Xaml.pdb
+c:\users\eduo\documents\visual studio 2017\Projects\TchospiraApp\TchospiraApp\TchospiraApp\bin\Debug\Xamarin.Forms.Xaml.xml
+c:\users\eduo\documents\visual studio 2017\Projects\TchospiraApp\TchospiraApp\TchospiraApp\obj\Debug\TchospiraApp.Views.ListPollsView.xaml.g.cs
+c:\users\eduo\documents\visual studio 2017\Projects\TchospiraApp\TchospiraApp\TchospiraApp\obj\Debug\TchospiraApp.dll
+c:\users\eduo\documents\visual studio 2017\Projects\TchospiraApp\TchospiraApp\TchospiraApp\obj\Debug\TchospiraApp.pdb
