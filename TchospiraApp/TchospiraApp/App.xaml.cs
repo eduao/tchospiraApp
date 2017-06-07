@@ -14,7 +14,7 @@ namespace TchospiraApp
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new ListPollsView());
+            MainPage = new NavigationPage(new MainPage());
 
             // MainPage = new ListPollsView();
         }

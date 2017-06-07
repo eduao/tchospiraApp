@@ -100,6 +100,11 @@ class MonoPackageManager_Resources {
 		/* We need to ensure that "TchospiraApp.Android.dll" comes first in this list. */
 		"TchospiraApp.Android.dll",
 		"FormsViewGroup.dll",
+		"Microsoft.WindowsAzure.Mobile.dll",
+		"Microsoft.WindowsAzure.Mobile.Ext.dll",
+		"Newtonsoft.Json.dll",
+		"System.Net.Http.Extensions.dll",
+		"System.Net.Http.Primitives.dll",
 		"Xamarin.Android.Support.Animated.Vector.Drawable.dll",
 		"Xamarin.Android.Support.Design.dll",
 		"Xamarin.Android.Support.v4.dll",

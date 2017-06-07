@@ -8,12 +8,12 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace TchospiraApp.Views {
+namespace TchospiraApp {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("c:\\users\\eduo\\documents\\visual studio 2017\\Projects\\TchospiraApp\\TchospiraApp\\Tch" +
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\eduo\\documents\\visual studio 2017\\Projects\\TchospiraApp\\TchospiraApp\\Tch" +
         "ospiraApp\\Views\\MainPage.xaml")]
-    public partial class MainPage : global::Xamarin.Forms.ContentPage {
+    public partial class MainPage : global::TchospiraApp.BasePage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
