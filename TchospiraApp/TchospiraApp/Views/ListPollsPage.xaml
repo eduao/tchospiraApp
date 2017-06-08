@@ -6,6 +6,8 @@
     <ContentPage.Content>
         <StackLayout>
             <Label Text="Listagem de Enquetes aqui" />
+            <Label Text="{Binding Tag.Title}"/>
+            <Label Text="{Binding Tag.Id}"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

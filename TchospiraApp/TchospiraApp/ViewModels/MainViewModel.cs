@@ -1,5 +1,6 @@
 ﻿using System.Collections.ObjectModel;
 using System.Threading.Tasks;
+using TchospiraApp.Helpers;
 using TchospiraApp.Models;
 using TchospiraApp.Services;
 using Xamarin.Forms;
@@ -17,6 +18,15 @@ namespace TchospiraApp.ViewModels
 
         public Command<Tag> ShowCategoriaCommand { get; }
 
+        public string UserId { get; private set; }
+        public string Token { get; private set; }
+
+        public MainViewModel()
+        {
+            UserId = Settings.UserId;
+            Token = Settings.AuthToken;
+        }
+
         public MainViewModel(ITchospiraService monkeyHubApiService)
         {
             _tchospiraService = monkeyHubApiService;
@@ -24,6 +34,7 @@ namespace TchospiraApp.ViewModels
             AboutCommand = new Command(ExecuteAboutCommand);
             SearchCommand = new Command(ExecuteSearchCommand);
             ShowCategoriaCommand = new Command<Tag>(ExecuteShowCategoriaCommand);
+            LoadAsync();
 
             Title = "Monkey Hub";
         }
@@ -40,7 +51,7 @@ namespace TchospiraApp.ViewModels
 
         private async void ExecuteAboutCommand()
         {
-            await PushAsync<ListPollsViewModel>();
+            await PushAsync<SobreViewModel>();
         }
 
         public override async Task LoadAsync()

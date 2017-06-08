@@ -43,7 +43,9 @@ namespace TchospiraApp.ViewModels
             var viewModelType = typeof(TViewModel);
             var viewModelTypeName = viewModelType.Name;
             var viewModelWordLength = "ViewModel".Length;
-            var viewTypeName = $"TchospiraApp.{viewModelTypeName.Substring(0, viewModelTypeName.Length - viewModelWordLength)}Page";
+            var realName = viewModelTypeName.Substring(0, viewModelTypeName.Length - viewModelWordLength);
+            var insertView = realName.Equals("Main") ? "" : "Views.";
+            var viewTypeName = $"TchospiraApp.{insertView}{viewModelTypeName.Substring(0, viewModelTypeName.Length - viewModelWordLength)}Page";
             var viewType = Type.GetType(viewTypeName);
 
             var page = Activator.CreateInstance(viewType) as Page;

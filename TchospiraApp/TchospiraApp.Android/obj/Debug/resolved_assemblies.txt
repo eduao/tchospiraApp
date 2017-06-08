@@ -3,6 +3,8 @@ C:\Users\eduo\documents\visual studio 2017\Projects\TchospiraApp\TchospiraApp\Tc
 C:\Users\eduo\documents\visual studio 2017\Projects\TchospiraApp\TchospiraApp\TchospiraApp.Android\obj\Debug\android\assets\Microsoft.WindowsAzure.Mobile.dll
 C:\Users\eduo\documents\visual studio 2017\Projects\TchospiraApp\TchospiraApp\TchospiraApp.Android\obj\Debug\android\assets\Microsoft.WindowsAzure.Mobile.Ext.dll
 C:\Users\eduo\documents\visual studio 2017\Projects\TchospiraApp\TchospiraApp\TchospiraApp.Android\obj\Debug\android\assets\Newtonsoft.Json.dll
+C:\Users\eduo\documents\visual studio 2017\Projects\TchospiraApp\TchospiraApp\TchospiraApp.Android\obj\Debug\android\assets\Plugin.Settings.Abstractions.dll
+C:\Users\eduo\documents\visual studio 2017\Projects\TchospiraApp\TchospiraApp\TchospiraApp.Android\obj\Debug\android\assets\Plugin.Settings.dll
 C:\Users\eduo\documents\visual studio 2017\Projects\TchospiraApp\TchospiraApp\TchospiraApp.Android\obj\Debug\android\assets\System.Net.Http.Extensions.dll
 C:\Users\eduo\documents\visual studio 2017\Projects\TchospiraApp\TchospiraApp\TchospiraApp.Android\obj\Debug\android\assets\System.Net.Http.Primitives.dll
 C:\Users\eduo\documents\visual studio 2017\Projects\TchospiraApp\TchospiraApp\TchospiraApp.Android\obj\Debug\android\assets\Xamarin.Android.Support.Animated.Vector.Drawable.dll

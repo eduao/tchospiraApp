@@ -7,6 +7,8 @@ C:\Users\eduo\documents\visual studio 2017\Projects\TchospiraApp\TchospiraApp\Tc
 C:\Users\eduo\documents\visual studio 2017\Projects\TchospiraApp\TchospiraApp\TchospiraApp.Android\bin\Debug\Microsoft.WindowsAzure.Mobile.dll
 C:\Users\eduo\documents\visual studio 2017\Projects\TchospiraApp\TchospiraApp\TchospiraApp.Android\bin\Debug\Microsoft.WindowsAzure.Mobile.Ext.dll
 C:\Users\eduo\documents\visual studio 2017\Projects\TchospiraApp\TchospiraApp\TchospiraApp.Android\bin\Debug\Newtonsoft.Json.dll
+C:\Users\eduo\documents\visual studio 2017\Projects\TchospiraApp\TchospiraApp\TchospiraApp.Android\bin\Debug\Plugin.Settings.Abstractions.dll
+C:\Users\eduo\documents\visual studio 2017\Projects\TchospiraApp\TchospiraApp\TchospiraApp.Android\bin\Debug\Plugin.Settings.dll
 C:\Users\eduo\documents\visual studio 2017\Projects\TchospiraApp\TchospiraApp\TchospiraApp.Android\bin\Debug\System.Net.Http.Extensions.dll
 C:\Users\eduo\documents\visual studio 2017\Projects\TchospiraApp\TchospiraApp\TchospiraApp.Android\bin\Debug\System.Net.Http.Primitives.dll
 C:\Users\eduo\documents\visual studio 2017\Projects\TchospiraApp\TchospiraApp\TchospiraApp.Android\bin\Debug\TchospiraApp.dll
@@ -29,6 +31,8 @@ C:\Users\eduo\documents\visual studio 2017\Projects\TchospiraApp\TchospiraApp\Tc
 C:\Users\eduo\documents\visual studio 2017\Projects\TchospiraApp\TchospiraApp\TchospiraApp.Android\bin\Debug\Microsoft.WindowsAzure.Mobile.xml
 C:\Users\eduo\documents\visual studio 2017\Projects\TchospiraApp\TchospiraApp\TchospiraApp.Android\bin\Debug\Microsoft.WindowsAzure.Mobile.Ext.xml
 C:\Users\eduo\documents\visual studio 2017\Projects\TchospiraApp\TchospiraApp\TchospiraApp.Android\bin\Debug\Newtonsoft.Json.xml
+C:\Users\eduo\documents\visual studio 2017\Projects\TchospiraApp\TchospiraApp\TchospiraApp.Android\bin\Debug\Plugin.Settings.xml
+C:\Users\eduo\documents\visual studio 2017\Projects\TchospiraApp\TchospiraApp\TchospiraApp.Android\bin\Debug\Plugin.Settings.Abstractions.xml
 C:\Users\eduo\documents\visual studio 2017\Projects\TchospiraApp\TchospiraApp\TchospiraApp.Android\bin\Debug\System.Net.Http.Extensions.xml
 C:\Users\eduo\documents\visual studio 2017\Projects\TchospiraApp\TchospiraApp\TchospiraApp.Android\bin\Debug\System.Net.Http.Primitives.xml
 C:\Users\eduo\documents\visual studio 2017\Projects\TchospiraApp\TchospiraApp\TchospiraApp.Android\bin\Debug\Xamarin.Forms.Core.pdb
