@@ -64,3 +64,11 @@ C:\Users\eduo\documents\visual studio 2017\Projects\TchospiraApp\TchospiraApp\Tc
 C:\Users\eduo\documents\visual studio 2017\Projects\TchospiraApp\TchospiraApp\TchospiraApp.Android\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
 C:\Users\eduo\documents\visual studio 2017\Projects\TchospiraApp\TchospiraApp\TchospiraApp.Android\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
 C:\Users\eduo\documents\visual studio 2017\Projects\TchospiraApp\TchospiraApp\TchospiraApp.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
+C:\Users\eduo\documents\visual studio 2017\Projects\TchospiraApp\TchospiraApp\TchospiraApp.Android\obj\Debug\res\drawable-xxhdpi\facebooklogin.png
+C:\Users\eduo\documents\visual studio 2017\Projects\TchospiraApp\TchospiraApp\TchospiraApp.Android\obj\Debug\res\drawable\facebooklogin.png
+C:\Users\eduo\documents\visual studio 2017\Projects\TchospiraApp\TchospiraApp\TchospiraApp.Android\obj\Debug\res\drawable-hdpi\facebooklogin.png
+C:\Users\eduo\documents\visual studio 2017\Projects\TchospiraApp\TchospiraApp\TchospiraApp.Android\obj\Debug\res\drawable-xhdpi\facebooklogin.png
+C:\Users\eduo\documents\visual studio 2017\Projects\TchospiraApp\TchospiraApp\TchospiraApp.Android\obj\Debug\res\drawable-xxhdpi\tchospiranewsc.png
+C:\Users\eduo\documents\visual studio 2017\Projects\TchospiraApp\TchospiraApp\TchospiraApp.Android\obj\Debug\res\drawable-xhdpi\tchospiranewsc.png
+C:\Users\eduo\documents\visual studio 2017\Projects\TchospiraApp\TchospiraApp\TchospiraApp.Android\obj\Debug\res\drawable-hdpi\tchospiranewsc.png
+C:\Users\eduo\documents\visual studio 2017\Projects\TchospiraApp\TchospiraApp\TchospiraApp.Android\obj\Debug\res\drawable\tchospiranewsc.png

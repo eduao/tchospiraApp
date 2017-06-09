@@ -14,9 +14,9 @@ namespace TchospiraApp
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new LoginPage());
+            //MainPage = new NavigationPage(new LoginPage());
 
-            // MainPage = new ListPollsView();
+            MainPage = new LoginPage();
         }
 
         protected override void OnStart()

@@ -1,4 +1,5 @@
-﻿using TchospiraApp.ViewModels;
+﻿using TchospiraApp.Services;
+using TchospiraApp.ViewModels;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -12,8 +13,9 @@ namespace TchospiraApp
         public MainPage()
         {
             InitializeComponent();
-            
-            BindingContext = new MainViewModel();
+            var monkeyHubApiService = DependencyService.Get<ITchospiraService>();
+            BindingContext = new MainViewModel(monkeyHubApiService);
+            //BindingContext = new MainViewModel();
         }
 
        // private void ListView_OnItemSelected(object sender, SelectedItemChangedEventArgs e)

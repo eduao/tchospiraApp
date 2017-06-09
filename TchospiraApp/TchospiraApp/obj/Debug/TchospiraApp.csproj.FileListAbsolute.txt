@@ -31,3 +31,4 @@ C:\Users\eduo\documents\visual studio 2017\Projects\TchospiraApp\TchospiraApp\Tc
 C:\Users\eduo\documents\visual studio 2017\Projects\TchospiraApp\TchospiraApp\TchospiraApp\bin\Debug\Xamarin.Forms.Xaml.xml
 C:\Users\eduo\documents\visual studio 2017\Projects\TchospiraApp\TchospiraApp\TchospiraApp\obj\Debug\TchospiraApp.dll
 C:\Users\eduo\documents\visual studio 2017\Projects\TchospiraApp\TchospiraApp\TchospiraApp\obj\Debug\TchospiraApp.pdb
+C:\Users\eduo\documents\visual studio 2017\Projects\TchospiraApp\TchospiraApp\TchospiraApp\obj\Debug\TchospiraApp.csprojResolveAssemblyReference.cache

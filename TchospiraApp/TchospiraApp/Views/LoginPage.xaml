@@ -1,21 +1,60 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="TchospiraApp.Views.LoginPage">
-    <StackLayout
-        HorizontalOptions="Center"
-        VerticalOptions="CenterAndExpand">
-        <Button Command="{Binding LoginCommand}"
-            Text="Entrar Pelo Facebook"
-                BackgroundColor="Blue"
-                FontSize="Medium"
-                TextColor="White" 
-                x:Name="LoginButton"></Button>
-        <Label
-            TextColor="Black"
-            FontSize="Medium"
-            x:Name="InfoLabel"
-            />
+             x:Class="TchospiraApp.Views.LoginPage"
+             BackgroundColor="Black">
 
+
+    <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" >
+        <!--<Button VerticalOptions="Start" Text="Clear Login Information!" />-->
+
+        <!--<Label VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" Text="Tchospira - News" TextColor="White"/>-->
+        <Image Source="tchospiranewsc.png" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+            <!--<Image.GestureRecognizers>
+                <TapGestureRecognizer
+                         Command="{Binding LoginCommand}"
+                        />
+            </Image.GestureRecognizers>-->
+        </Image>
+
+        <Image Source="facebooklogin.png" HorizontalOptions="Center">
+            <Image.GestureRecognizers>
+                <TapGestureRecognizer
+                         Command="{Binding LoginCommand}"
+                        />
+            </Image.GestureRecognizers>
+        </Image>
+        <!--<Button HorizontalOptions="Center" Text="Bottom Button" />-->
     </StackLayout>
+
+    <!--<StackLayout
+        HorizontalOptions="Center"
+        VerticalOptions="Center">
+            <Label Text="Oiiir" TextColor="White"/>
+        </StackLayout>
+
+
+
+
+
+        <StackLayout
+            HorizontalOptions="CenterAndExpand"
+            VerticalOptions="EndAndExpand">
+
+            <Image Source="facebooklogin.png">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer
+                         Command="{Binding LoginCommand}"
+                        />
+                </Image.GestureRecognizers>
+            </Image>
+            --><!--<Button Command="{Binding LoginCommand}"
+                    Text="Entrar Pelo Facebook"
+                    BackgroundColor="#cecece"
+                    FontSize="Medium"
+                    TextColor="White" 
+                    x:Name="LoginButton"></Button>--><!--
+
+        </StackLayout>-->
+
 </ContentPage>

@@ -3,7 +3,9 @@
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:TchospiraApp"
-             x:Class="TchospiraApp.MainPage">
+             x:Class="TchospiraApp.MainPage"
+             Title="Notícias"
+               BackgroundColor="Black">
     <ContentPage.ToolbarItems>
         <ToolbarItem Text="About" Command="{Binding AboutCommand}"/>
         <ToolbarItem Text="Buscar" Command="{Binding SearchCommand}"/>
@@ -17,10 +19,11 @@
                     <StackLayout Padding="20, 30" Orientation="Vertical">
                         <Label Text="{Binding Title}"
 							   FontSize="Large"                   
-                               TextColor="#FF5525"/>
+                               TextColor="White"/>
 
                         <Label Text="{Binding Description}"
-							    FontSize="Small" />
+							    FontSize="Small" 
+                               TextColor="White"/>
                     </StackLayout>
                 </ViewCell>
             </DataTemplate>

@@ -70,8 +70,8 @@ namespace TchospiraApp.ViewModels
             }
             else
             {
-                //var mainPage = new MainPage();
-                await PushAsync<MainViewModel>();
+                Application.Current.MainPage = new NavigationPage(new MainPage());
+                //await PushAsync<MainViewModel>();
 
                 //RemovePageFromStack();
             }
