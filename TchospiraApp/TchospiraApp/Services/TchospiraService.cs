@@ -15,19 +15,19 @@ namespace TchospiraApp.Services
     {
         private const string BaseUrl = "https://tchospira.azurewebsites.net/Tables/";
 
-        public async Task<List<Tag>> GetTagsAsync()
+        public async Task<List<News>> GetNewsAsync()
         {
             var httpClient = new HttpClient();
             httpClient.DefaultRequestHeaders.Add("ZUMO-API-VERSION", "2.0.0");
             httpClient.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
 
-            var response = await httpClient.GetAsync($"{BaseUrl}tag").ConfigureAwait(false);
+            var response = await httpClient.GetAsync($"{BaseUrl}news").ConfigureAwait(false);
 
             if (response.IsSuccessStatusCode)
             {
                 using (var responseStream = await response.Content.ReadAsStreamAsync().ConfigureAwait(false))
                 {
-                    return JsonConvert.DeserializeObject<List<Tag>>(
+                    return JsonConvert.DeserializeObject<List<News>>(
                         await new StreamReader(responseStream)
                             .ReadToEndAsync().ConfigureAwait(false));
                 }

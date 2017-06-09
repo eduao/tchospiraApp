@@ -12,5 +12,9 @@ namespace TchospiraApp.Authentication
         Task<MobileServiceUser> LoginASync(MobileServiceClient client, 
             MobileServiceAuthenticationProvider provider,
             IDictionary<string, string> parameters = null);
+
+        Task<MobileServiceUser> LogoutASync(MobileServiceClient client,
+            MobileServiceAuthenticationProvider provider,
+            IDictionary<string, string> parameters = null);
     }
 }

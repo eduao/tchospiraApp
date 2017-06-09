@@ -33,6 +33,36 @@ namespace TchospiraApp.Services
             }
         }
 
+
+        public async Task<bool> LogoutAsync()
+        {
+            Initialize();
+
+            var auth = DependencyService.Get<IAuthentication>();
+            var user = await auth.LogoutASync(Client, MobileServiceAuthenticationProvider.Facebook);
+
+            if (user != null)
+            {
+                Settings.AuthToken = string.Empty;
+                Settings.UserId = string.Empty;
+
+                //Device.BeginInvokeOnMainThread(async () =>
+                //{
+                //    await App.Current.MainPage.DisplayAlert("Login", "Tente se autenticar novamente", "OK");
+                //});
+                return true;
+            }
+            else
+            {
+                //Settings.AuthToken = user.MobileServiceAuthenticationToken;
+                //Settings.UserId = user.UserId;
+                return false;
+            }
+        }
+
+
+
+
         public async Task<bool> LoginAsync()
         {
             Initialize();

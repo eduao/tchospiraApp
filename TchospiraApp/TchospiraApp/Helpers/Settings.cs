@@ -13,11 +13,23 @@ namespace TchospiraApp.Helpers
   {
         private static ISettings AppSettings => CrossSettings.Current;
 
+        const string UrlSiteKey = "urlsite";
+        static readonly string UrlSiteDefault = "http://tchospira.tk";
+
         const string UserIdKey = "userid";
         static readonly string UserIdDefault = string.Empty;
 
         const string AuthTokenKey = "authtoken";
         static readonly string AuthTokenDefault = string.Empty;
+
+        public static string UrlSite
+        {
+            get { return AppSettings.GetValueOrDefault<string>(UrlSiteKey, UrlSiteDefault); }
+            set
+            {
+                AppSettings.AddOrUpdateValue<string>(UrlSiteKey, value);
+            }
+        }
 
 
         public static string AuthToken

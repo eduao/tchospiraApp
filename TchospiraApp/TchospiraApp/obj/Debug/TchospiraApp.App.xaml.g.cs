@@ -11,7 +11,7 @@
 namespace TchospiraApp {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\eduo\\documents\\visual studio 2017\\Projects\\TchospiraApp\\TchospiraApp\\Tch" +
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\r2d2\\Documents\\Visual Studio 2017\\Projects\\TchospiraApp\\TchospiraApp\\Tch" +
         "ospiraApp\\App.xaml")]
     public partial class App : global::Xamarin.Forms.Application {
         

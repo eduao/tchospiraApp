@@ -1,4 +1,5 @@
-﻿using TchospiraApp.Services;
+﻿using System.Diagnostics;
+using TchospiraApp.Services;
 using TchospiraApp.ViewModels;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -18,12 +19,13 @@ namespace TchospiraApp
             //BindingContext = new MainViewModel();
         }
 
-       // private void ListView_OnItemSelected(object sender, SelectedItemChangedEventArgs e)
-        //{
-       //     if (e.SelectedItem != null)
-       //     {
-       //         ViewModel.ShowCategoriaCommand.Execute(e.SelectedItem);
-       //     }
-      //  }
+        private void ListView_OnItemSelected(object sender, SelectedItemChangedEventArgs e)
+        {
+            if (e.SelectedItem != null)
+            {
+                ViewModel.VisitUrlCommand.Execute(e.SelectedItem);
+                Debug.WriteLine("Clicou");// ViewModel.ShowCategoriaCommand.Execute(e.SelectedItem);
+            }
+        }
     }
 }

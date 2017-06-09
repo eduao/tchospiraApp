@@ -42,6 +42,7 @@
     <Compile Include="BasePage.cs" />
     <Compile Include="Helpers\Settings.cs" />
     <Compile Include="Models\New.cs" />
+    <Compile Include="Models\News.cs" />
     <Compile Include="Models\Tag.cs" />
     <Compile Include="Services\AzureService.cs" />
     <Compile Include="Services\ITchospiraService.cs" />
@@ -52,6 +53,7 @@
     <Compile Include="ViewModels\MainViewModel.cs" />
     <Compile Include="ViewModels\NoticiaViewModel.cs" />
     <Compile Include="ViewModels\SobreViewModel.cs" />
+    <Compile Include="ViewModels\UrlViewModel.cs" />
     <Compile Include="Views\ListPollsPage.xaml.cs">
       <DependentUpon>ListPollsPage.xaml</DependentUpon>
     </Compile>
@@ -64,6 +66,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Views\SobrePage.xaml.cs">
       <DependentUpon>SobrePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\UrlPage.xaml.cs">
+      <DependentUpon>UrlPage.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -125,6 +130,12 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Views\LoginPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Views\UrlPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>

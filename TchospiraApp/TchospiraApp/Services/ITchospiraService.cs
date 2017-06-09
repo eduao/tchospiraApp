@@ -11,7 +11,7 @@ namespace TchospiraApp.Services
     {
 
         Task<List<New>> GetNewsByTagIdAsync(string tagId);
-        Task<List<Tag>> GetTagsAsync();
+        Task<List<News>> GetNewsAsync();
         Task<List<New>> GetNewsByFilterAsync(string filter);
     }
 }

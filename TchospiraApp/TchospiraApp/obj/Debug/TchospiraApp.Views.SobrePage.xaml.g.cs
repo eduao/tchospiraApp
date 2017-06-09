@@ -11,7 +11,7 @@
 namespace TchospiraApp.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\eduo\\documents\\visual studio 2017\\Projects\\TchospiraApp\\TchospiraApp\\Tch" +
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\r2d2\\Documents\\Visual Studio 2017\\Projects\\TchospiraApp\\TchospiraApp\\Tch" +
         "ospiraApp\\Views\\SobrePage.xaml")]
     public partial class SobrePage : global::Xamarin.Forms.ContentPage {
         

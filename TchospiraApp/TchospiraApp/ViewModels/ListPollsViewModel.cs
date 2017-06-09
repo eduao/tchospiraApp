@@ -49,6 +49,16 @@ namespace TchospiraApp.ViewModels
             ShowContentCommand = new Command<New>(ExecuteShowContentCommand);
         }
 
+        public ListPollsViewModel(ITchospiraService tchospiraService)
+        {
+            _tchospiraService = tchospiraService;
+            //_tag = tag;
+
+            SearchResults = new ObservableCollection<New>();
+            SearchCommand = new Command(ExecuteSearchCommand, CanExecuteSearchCommand);
+            ShowContentCommand = new Command<New>(ExecuteShowContentCommand);
+        }
+
         private async void ExecuteShowContentCommand(New content)
         {
             

@@ -18,8 +18,9 @@ namespace TchospiraApp.ViewModels
         INavigation navigation;
         private bool _isBusy;
         public Command LoginCommand { get; }
+        public Command LogoutCommand { get; }
 
-        ICommand loginCommand;
+        //ICommand loginCommand;
 
         // public Command LoginCommand { get; }
 
@@ -38,6 +39,7 @@ namespace TchospiraApp.ViewModels
             _azureService = DependencyService.Get<AzureService>();
 
             LoginCommand = new Command(async () => await ExecuteLoginCommandAsync());
+            LogoutCommand = new Command(async () => await ExecuteLogoutCommandAsync());
             Title = "Social Login Demo";
         }
 
@@ -46,7 +48,14 @@ namespace TchospiraApp.ViewModels
             _azureService = DependencyService.Get<AzureService>();
             navigation = nav;
             LoginCommand = new Command(async () => await ExecuteLoginCommandAsync());
+            LogoutCommand = new Command(async () => await ExecuteLogoutCommandAsync());
             Title = "Tela login";
+
+            if (Settings.IsLoggedIn)
+            {
+                Task.Delay(3000);
+                Application.Current.MainPage = new NavigationPage(new MainPage());
+            }
 
         }
 
@@ -61,6 +70,21 @@ namespace TchospiraApp.ViewModels
           //      }
            // }
        // }
+       private async Task ExecuteLogoutCommandAsync()
+        {
+            if (_isBusy || !(await LogoutAsync()))
+            {
+                return;
+            }
+            else
+            {
+                Application.Current.MainPage = new LoginPage();
+                //await PushAsync<MainViewModel>();
+
+                //RemovePageFromStack();
+            }
+            _isBusy = false;
+        }
 
         private async Task ExecuteLoginCommandAsync()
         {
@@ -76,6 +100,17 @@ namespace TchospiraApp.ViewModels
                 //RemovePageFromStack();
             }
             _isBusy = false;
+        }
+
+        private Task<bool> LogoutAsync()
+        {
+            _isBusy = true;
+            if (Settings.IsLoggedIn)
+            {
+                return _azureService.LogoutAsync(); 
+                
+            }
+            return Task.FromResult(false);
         }
 
         private Task<bool> LoginAsync()

@@ -37,5 +37,22 @@ namespace TchospiraApp.Droid
                 throw;
             }
         }
+
+
+        public async Task<MobileServiceUser> LogoutASync(MobileServiceClient client, MobileServiceAuthenticationProvider provider, IDictionary<string, string> parameters = null)
+        {
+            try
+            {
+               
+                Settings.AuthToken = string.Empty;
+                Settings.UserId = string.Empty;
+
+                return null;
+            }
+            catch (Exception ex)
+            {
+                throw;
+            }
+        }
     }
 }
