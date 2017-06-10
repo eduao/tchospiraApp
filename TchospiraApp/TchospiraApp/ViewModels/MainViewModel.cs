@@ -58,7 +58,7 @@ namespace TchospiraApp.ViewModels
             //Title = "Monkey Hub";
         }
 
-        private async void ExecuteLogoutCommand()
+        private void ExecuteLogoutCommand()
         {
             Application.Current.MainPage = new LoginPage();
         }
